@@ -24,10 +24,6 @@ import lombok.Data;
 @ComponentScan("com.xworkz")
 public class Collection {
 	
-	//public Collection() {
-		
-//	}
-	
 	@Bean
 	public List demo() {
 		System.out.println("List");
